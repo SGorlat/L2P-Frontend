@@ -27,6 +27,18 @@ function Footer() {
         <p className="footer-copy">
           © 2025 Link2Play. Todos los derechos reservados.
         </p>
+        <p>
+          Powered by RAWG Video Games Database, more info:
+          <a
+            href="https://rawg.io"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-rawg"
+          >
+            RAWG.io
+          </a>
+          .
+        </p>
       </div>
     </footer>
   );
