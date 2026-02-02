@@ -13,7 +13,7 @@
   padding: 1.5rem;
   border-radius: 12px;
   color: #fff;
-  min-width: 220px;
+  min-width: min(220px, 100%);
   max-width: 260px;
   font-family: "Inter", sans-serif;
   border: 1px solid rgba(255, 255, 255, 0.05);

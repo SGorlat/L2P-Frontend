@@ -1,6 +1,7 @@
 :root {
   --bg-dark: #1e1e2a;
-  --sidebar-bg: radial-gradient(ellipse at 20% 25%, #0f1740 0%, transparent 50%),
+  --sidebar-bg:
+    radial-gradient(ellipse at 20% 25%, #0f1740 0%, transparent 50%),
     radial-gradient(ellipse at 60% 70%, #1a0e33 0%, transparent 45%),
     radial-gradient(
       ellipse at 50% 85%,
@@ -58,7 +59,9 @@
   margin-bottom: 0.5rem;
   border-radius: 16px;
   cursor: pointer;
-  transition: background 0.2s, box-shadow 0.2s;
+  transition:
+    background 0.2s,
+    box-shadow 0.2s;
 }
 
 .friend-item-messages:hover {
@@ -102,7 +105,8 @@
   justify-content: center;
   align-items: center;
   /* background: url("/images/3.jpg") center center / cover no-repeat; */
-  background: radial-gradient(ellipse at 20% 25%, #0f1740 0%, transparent 50%),
+  background:
+    radial-gradient(ellipse at 20% 25%, #0f1740 0%, transparent 50%),
     radial-gradient(ellipse at 60% 70%, #1a0e33 0%, transparent 45%),
     radial-gradient(
       ellipse at 50% 85%,
@@ -123,7 +127,8 @@
   overflow: hidden;
   box-shadow: 0 0 20px #00000066;
   border: 1px solid rgba(255, 255, 255, 0.05);
-  background: radial-gradient(ellipse at 20% 25%, #0f1740 0%, transparent 50%),
+  background:
+    radial-gradient(ellipse at 20% 25%, #0f1740 0%, transparent 50%),
     radial-gradient(ellipse at 60% 70%, #1a0e33 0%, transparent 45%),
     radial-gradient(
       ellipse at 50% 85%,
@@ -348,7 +353,7 @@
     align-items: center;
     justify-content: center;
     padding: 6px;
-    min-width: 64px;
+    min-width: min(64px, 100%);
     max-width: 64px;
     height: 72px;
   }

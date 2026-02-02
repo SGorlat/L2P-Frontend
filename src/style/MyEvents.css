@@ -1,6 +1,7 @@
 .myEvents-container {
   min-height: 100vh;
-  background: radial-gradient(ellipse at 20% 25%, #0f1740 0%, transparent 50%),
+  background:
+    radial-gradient(ellipse at 20% 25%, #0f1740 0%, transparent 50%),
     radial-gradient(ellipse at 60% 70%, #1a0e33 0%, transparent 45%),
     radial-gradient(
       ellipse at 50% 85%,
@@ -20,7 +21,8 @@
   min-width: 0;
   margin: 0;
   border-radius: 0;
-  background: radial-gradient(ellipse at 20% 25%, #0f1740 0%, transparent 50%),
+  background:
+    radial-gradient(ellipse at 20% 25%, #0f1740 0%, transparent 50%),
     radial-gradient(ellipse at 60% 70%, #1a0e33 0%, transparent 45%),
     radial-gradient(
       ellipse at 50% 85%,
@@ -68,7 +70,8 @@
 }
 
 .section-request-content {
-  background: radial-gradient(ellipse at 20% 25%, #0f1740 0%, transparent 50%),
+  background:
+    radial-gradient(ellipse at 20% 25%, #0f1740 0%, transparent 50%),
     radial-gradient(ellipse at 60% 70%, #1a0e33 0%, transparent 45%),
     radial-gradient(
       ellipse at 50% 85%,
@@ -99,7 +102,11 @@
   font-family: "Orbitron", "Poppins", sans-serif;
   letter-spacing: 0.3px;
   cursor: pointer;
-  transition: background 0.2s, color 0.2s, border 0.2s, box-shadow 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    border 0.2s,
+    box-shadow 0.2s;
   box-shadow: 0 0 8px #00e0ff22;
 }
 .tab-btns button.active,
@@ -129,9 +136,14 @@
 }
 
 .request-item {
-  background: radial-gradient(circle at 25% 20%, #132347, transparent 40%),
+  background:
+    radial-gradient(circle at 25% 20%, #132347, transparent 40%),
     radial-gradient(circle at 50% 60%, #170c2c, transparent 30%),
-    radial-gradient(circle at 50% 80%, rgba(0, 255, 200, 0.05), transparent 60%),
+    radial-gradient(
+      circle at 50% 80%,
+      rgba(0, 255, 200, 0.05),
+      transparent 60%
+    ),
     #0a0a1a;
   border-radius: 10px;
   max-width: 600px;
@@ -143,11 +155,15 @@
   box-shadow: 0 2px 8px #00ffc822;
   border: 1.5px solid #00ffc822;
   position: relative;
-  transition: background 0.2s, box-shadow 0.2s;
+  transition:
+    background 0.2s,
+    box-shadow 0.2s;
 }
 .request-item:hover {
   background: rgba(0, 255, 200, 0.16);
-  box-shadow: 0 0 16px #00ffc8cc, 0 2px 12px #0ff2;
+  box-shadow:
+    0 0 16px #00ffc8cc,
+    0 2px 12px #0ff2;
   border-color: #00ffc8;
 }
 
@@ -172,7 +188,10 @@
   font-weight: 600;
   border: none;
   cursor: pointer;
-  transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+  transition:
+    background 0.18s,
+    color 0.18s,
+    box-shadow 0.18s;
   box-shadow: 0 0 8px #00ffc822;
 }
 .accept-request-btn {
@@ -211,7 +230,11 @@
   font-family: "Audiowide", "Orbitron", "Poppins", sans-serif;
   letter-spacing: 0.4px;
   cursor: pointer;
-  transition: background 0.2s, color 0.2s, border 0.2s, box-shadow 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    border 0.2s,
+    box-shadow 0.2s;
   box-shadow: 0 0 8px #66fcf122;
   position: relative;
 }
@@ -280,7 +303,7 @@
 .myEvents-cards-row > * {
   flex: 0 0 420px;
   max-width: 420px;
-  min-width: 260px;
+  min-width: min(260px, 100%);
 }
 
 @media (max-width: 700px) {
@@ -292,7 +315,7 @@
   .myEvents-cards-row > * {
     flex: 0 0 90vw;
     max-width: 90vw;
-    min-width: 180px;
+    min-width: min(180px, 100%);
   }
 }
 

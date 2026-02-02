@@ -27,7 +27,7 @@
 
 .event-info-show {
   flex: 1;
-  min-width: 300px;
+  min-width: min(300px, 100%);
   max-width: 500px;
   padding-left: 2rem;
   text-align: left;

@@ -38,8 +38,13 @@
   border-radius: 10px;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.2s ease;
-  min-width: 100px; /* Puedes quitar esto si prefieres que se adapten al contenedor */
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+  min-width: min(
+    100px,
+    100%
+  ); /* Puedes quitar esto si prefieres que se adapten al contenedor */
   text-decoration: none;
 }
 
@@ -151,7 +156,9 @@
   border-radius: 10px;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .player-button:hover {
